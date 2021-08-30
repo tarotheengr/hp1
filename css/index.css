@@ -327,18 +327,12 @@
 
 .recruit p {
   line-height: 2.5;
-  padding-top: 10px;
+  padding: 10px;
   width: 80%;
 }
 
-.recruit .btn a {
-  text-align: center;
-  background: #ff8856;
-  padding: 20px 60px;
-  position: relative;
-  top: 90px;
-  color: #fff;
-  font-weight: bold;
+.recruitbtn2 p {
+  margin: 0 auto;
 }
 
 /*フラッシュsettingここから*/
@@ -360,22 +354,22 @@
 
 
 /*採用ボタン枠アニメーションここから*/
-.recruitbtn {
+.recruitbtn2 {
   border: 2px solid #ff8856;
-  padding: 20px;
+  letter-spacing: 5px;
   text-align: center;
   width: 20%;
+  padding: 10px;
   margin: 7% auto;
   position: relative;
   display: inline-block;
-  color: #ff8856;
   text-decoration: none;
 }
 
-.recruitbtn::after,
-.recruitbtn::before,
-.recruitbtn a::after,
-.recruitbtn a::before {
+.recruitbtn2::after,
+.recruitbtn2::before,
+.recruitbtn2 a::after,
+.recruitbtn2 a::before {
   background-color: #3498db;
   content: '';
   display: block;
@@ -385,28 +379,28 @@
   -webkit-transition: all .3s ease;
 }
 /* 左上へ配置 */
-.recruitbtn::after {
+.recruitbtn2::after {
     width: 0px;
     height: 3px;
     top: -2px;
     left: -2px;
 }
 /* 右下へ配置 */
-.recruitbtn::before {
+.recruitbtn2::before {
     width: 0px;
     height: 3px;
     right: -2px;
     bottom: -2px;
 }
 /* 左下へ配置 */
-.recruitbtn a::after {
+.recruitbtn2 a::after {
     width: 3px;
     height: 0px;
     left: -2px;
     bottom: -2px;
 }
 /* 右上へ配置 */
-.recruitbtn a::before {
+.recruitbtn2 a::before {
     width: 3px;
     height: 0px;
     top: -2px;
@@ -414,14 +408,14 @@
 }
 
 /* hover */
-.recruitbtn:hover::after,
-.recruitbtn:hover::before {
+.recruitbtn2:hover::after,
+.recruitbtn2:hover::before {
   width: 100%;
   width: calc(100% + 2px);
 }
 
-.recruitbtn:hover a::after,
-.recruitbtn:hover a::before {
+.recruitbtn2:hover a::after,
+.recruitbtn2:hover a::before {
   height: 100%;
   height: calc(100% + 2px)
 }
